@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF09BFDE213BCAFB009BD678 /* galleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09BFDD213BCAFB009BD678 /* galleryViewController.swift */; };
+		BF9FB20F212421EB001168B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FB20E212421EB001168B7 /* AppDelegate.swift */; };
+		BF9FB211212421EB001168B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FB210212421EB001168B7 /* ViewController.swift */; };
+		BF9FB214212421EB001168B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB212212421EB001168B7 /* Main.storyboard */; };
+		BF9FB216212421F0001168B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB215212421F0001168B7 /* Assets.xcassets */; };
+		BF9FB219212421F0001168B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB217212421F0001168B7 /* LaunchScreen.storyboard */; };
+		BF9FB22121242682001168B7 /* timeless_top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22021242681001168B7 /* timeless_top.jpg */; };
+		BF9FB223212427AB001168B7 /* TImeLess_logo-06.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB222212427A8001168B7 /* TImeLess_logo-06.png */; };
+		BF9FB23521243B4D001168B7 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22821243B2D001168B7 /* play.png */; };
+		BF9FB23721243B4D001168B7 /* header_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22A21243B34001168B7 /* header_logo.png */; };
+		BF9FB23821243B4D001168B7 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22B21243B37001168B7 /* gallery.png */; };
+		BF9FB23A21243B4D001168B7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22D21243B3E001168B7 /* camera.png */; };
+		BF9FB23B21243B4D001168B7 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22E21243B42001168B7 /* photo.png */; };
+		BF9FB23C21243B4D001168B7 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB22F21243B45001168B7 /* edit.png */; };
+		BF9FB23F21243EB0001168B7 /* top_border.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB23E21243EAC001168B7 /* top_border.png */; };
+		BF9FB24A21244882001168B7 /* saveTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24021244860001168B7 /* saveTitle.png */; };
+		BF9FB24B21244882001168B7 /* editTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24121244863001168B7 /* editTitle.png */; };
+		BF9FB24C21244882001168B7 /* checkbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24221244866001168B7 /* checkbtn.png */; };
+		BF9FB24D21244882001168B7 /* deletebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24321244869001168B7 /* deletebtn.png */; };
+		BF9FB24E21244882001168B7 /* savebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB2442124486C001168B7 /* savebtn.png */; };
+		BF9FB24F21244882001168B7 /* galleryTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24521244870001168B7 /* galleryTitle.png */; };
+		BF9FB25021244882001168B7 /* backbtn2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24621244873001168B7 /* backbtn2.png */; };
+		BF9FB25121244882001168B7 /* backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB24721244876001168B7 /* backbtn.png */; };
+		BF9FB25221244882001168B7 /* reEditbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB2482124487A001168B7 /* reEditbtn.png */; };
+		BF9FB25321244882001168B7 /* deleteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB2492124487D001168B7 /* deleteIcon.png */; };
+		BF9FB25521244DA7001168B7 /* editViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FB25421244DA7001168B7 /* editViewController.swift */; };
+		BF9FB25721253C57001168B7 /* saveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FB25621253C57001168B7 /* saveViewController.swift */; };
+		BF9FB27F21394FF7001168B7 /* d.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27621394FF5001168B7 /* d.JPG */; };
+		BF9FB28021394FF7001168B7 /* c.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27721394FF6001168B7 /* c.JPG */; };
+		BF9FB28121394FF7001168B7 /* f.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27821394FF6001168B7 /* f.JPG */; };
+		BF9FB28221394FF7001168B7 /* e.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27921394FF6001168B7 /* e.JPG */; };
+		BF9FB28321394FF7001168B7 /* g.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27A21394FF6001168B7 /* g.jpg */; };
+		BF9FB28421394FF7001168B7 /* a.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27B21394FF7001168B7 /* a.JPG */; };
+		BF9FB28521394FF7001168B7 /* h.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27C21394FF7001168B7 /* h.JPG */; };
+		BF9FB28621394FF7001168B7 /* b.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27D21394FF7001168B7 /* b.JPG */; };
+		BF9FB28721394FF7001168B7 /* i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB27E21394FF7001168B7 /* i.jpg */; };
+		BF9FB28921396ACC001168B7 /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FB28821396ACC001168B7 /* animationViewController.swift */; };
+		BF9FB2AD21399688001168B7 /* timeless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB2AC21399687001168B7 /* timeless.mp3 */; };
+		BFD90ED72151419C00B5CE9C /* timeless.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD90ED62151419C00B5CE9C /* timeless.png */; };
+		BFD90ED92151462A00B5CE9C /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD90ED82151462600B5CE9C /* noImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF09BFDD213BCAFB009BD678 /* galleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryViewController.swift; sourceTree = "<group>"; };
+		BF9FB20B212421EB001168B7 /* Timeless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9FB20E212421EB001168B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF9FB210212421EB001168B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF9FB213212421EB001168B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9FB215212421F0001168B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9FB218212421F0001168B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF9FB21A212421F0001168B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9FB22021242681001168B7 /* timeless_top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeless_top.jpg; sourceTree = "<group>"; };
+		BF9FB222212427A8001168B7 /* TImeLess_logo-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TImeLess_logo-06.png"; sourceTree = "<group>"; };
+		BF9FB22821243B2D001168B7 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		BF9FB22A21243B34001168B7 /* header_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_logo.png; sourceTree = "<group>"; };
+		BF9FB22B21243B37001168B7 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		BF9FB22D21243B3E001168B7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		BF9FB22E21243B42001168B7 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		BF9FB22F21243B45001168B7 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		BF9FB23E21243EAC001168B7 /* top_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_border.png; sourceTree = "<group>"; };
+		BF9FB24021244860001168B7 /* saveTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveTitle.png; sourceTree = "<group>"; };
+		BF9FB24121244863001168B7 /* editTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editTitle.png; sourceTree = "<group>"; };
+		BF9FB24221244866001168B7 /* checkbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbtn.png; sourceTree = "<group>"; };
+		BF9FB24321244869001168B7 /* deletebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletebtn.png; sourceTree = "<group>"; };
+		BF9FB2442124486C001168B7 /* savebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = savebtn.png; sourceTree = "<group>"; };
+		BF9FB24521244870001168B7 /* galleryTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galleryTitle.png; sourceTree = "<group>"; };
+		BF9FB24621244873001168B7 /* backbtn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbtn2.png; sourceTree = "<group>"; };
+		BF9FB24721244876001168B7 /* backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbtn.png; sourceTree = "<group>"; };
+		BF9FB2482124487A001168B7 /* reEditbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reEditbtn.png; sourceTree = "<group>"; };
+		BF9FB2492124487D001168B7 /* deleteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteIcon.png; sourceTree = "<group>"; };
+		BF9FB25421244DA7001168B7 /* editViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editViewController.swift; sourceTree = "<group>"; };
+		BF9FB25621253C57001168B7 /* saveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveViewController.swift; sourceTree = "<group>"; };
+		BF9FB27621394FF5001168B7 /* d.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d.JPG; sourceTree = "<group>"; };
+		BF9FB27721394FF6001168B7 /* c.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.JPG; sourceTree = "<group>"; };
+		BF9FB27821394FF6001168B7 /* f.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f.JPG; sourceTree = "<group>"; };
+		BF9FB27921394FF6001168B7 /* e.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e.JPG; sourceTree = "<group>"; };
+		BF9FB27A21394FF6001168B7 /* g.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = g.jpg; sourceTree = "<group>"; };
+		BF9FB27B21394FF7001168B7 /* a.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.JPG; sourceTree = "<group>"; };
+		BF9FB27C21394FF7001168B7 /* h.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h.JPG; sourceTree = "<group>"; };
+		BF9FB27D21394FF7001168B7 /* b.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.JPG; sourceTree = "<group>"; };
+		BF9FB27E21394FF7001168B7 /* i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i.jpg; sourceTree = "<group>"; };
+		BF9FB28821396ACC001168B7 /* animationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationViewController.swift; sourceTree = "<group>"; };
+		BF9FB2AC21399687001168B7 /* timeless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timeless.mp3; sourceTree = "<group>"; };
+		BFD90ED62151419C00B5CE9C /* timeless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeless.png; sourceTree = "<group>"; };
+		BFD90ED82151462600B5CE9C /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9FB208212421EB001168B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9FB202212421EA001168B7 = {
+			isa = PBXGroup;
+			children = (
+				BF9FB20D212421EB001168B7 /* Timeless */,
+				BF9FB20C212421EB001168B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9FB20C212421EB001168B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FB20B212421EB001168B7 /* Timeless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9FB20D212421EB001168B7 /* Timeless */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FB22021242681001168B7 /* timeless_top.jpg */,
+				BF9FB222212427A8001168B7 /* TImeLess_logo-06.png */,
+				BF9FB20E212421EB001168B7 /* AppDelegate.swift */,
+				BF9FB25421244DA7001168B7 /* editViewController.swift */,
+				BF9FB210212421EB001168B7 /* ViewController.swift */,
+				BF9FB28821396ACC001168B7 /* animationViewController.swift */,
+				BF9FB25621253C57001168B7 /* saveViewController.swift */,
+				BF09BFDD213BCAFB009BD678 /* galleryViewController.swift */,
+				BF9FB212212421EB001168B7 /* Main.storyboard */,
+				BFD90ED82151462600B5CE9C /* noImage.png */,
+				BF9FB2AC21399687001168B7 /* timeless.mp3 */,
+				BF9FB215212421F0001168B7 /* Assets.xcassets */,
+				BF9FB22D21243B3E001168B7 /* camera.png */,
+				BF9FB24721244876001168B7 /* backbtn.png */,
+				BF9FB24621244873001168B7 /* backbtn2.png */,
+				BFD90ED62151419C00B5CE9C /* timeless.png */,
+				BF9FB24221244866001168B7 /* checkbtn.png */,
+				BF9FB24321244869001168B7 /* deletebtn.png */,
+				BF9FB2492124487D001168B7 /* deleteIcon.png */,
+				BF9FB24121244863001168B7 /* editTitle.png */,
+				BF9FB24521244870001168B7 /* galleryTitle.png */,
+				BF9FB2482124487A001168B7 /* reEditbtn.png */,
+				BF9FB2442124486C001168B7 /* savebtn.png */,
+				BF9FB24021244860001168B7 /* saveTitle.png */,
+				BF9FB23E21243EAC001168B7 /* top_border.png */,
+				BF9FB22F21243B45001168B7 /* edit.png */,
+				BF9FB22B21243B37001168B7 /* gallery.png */,
+				BF9FB27B21394FF7001168B7 /* a.JPG */,
+				BF9FB27D21394FF7001168B7 /* b.JPG */,
+				BF9FB27721394FF6001168B7 /* c.JPG */,
+				BF9FB27621394FF5001168B7 /* d.JPG */,
+				BF9FB27921394FF6001168B7 /* e.JPG */,
+				BF9FB27821394FF6001168B7 /* f.JPG */,
+				BF9FB27A21394FF6001168B7 /* g.jpg */,
+				BF9FB27C21394FF7001168B7 /* h.JPG */,
+				BF9FB27E21394FF7001168B7 /* i.jpg */,
+				BF9FB22A21243B34001168B7 /* header_logo.png */,
+				BF9FB22E21243B42001168B7 /* photo.png */,
+				BF9FB22821243B2D001168B7 /* play.png */,
+				BF9FB217212421F0001168B7 /* LaunchScreen.storyboard */,
+				BF9FB21A212421F0001168B7 /* Info.plist */,
+			);
+			path = Timeless;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9FB20A212421EB001168B7 /* Timeless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9FB21D212421F0001168B7 /* Build configuration list for PBXNativeTarget "Timeless" */;
+			buildPhases = (
+				BF9FB207212421EB001168B7 /* Sources */,
+				BF9FB208212421EB001168B7 /* Frameworks */,
+				BF9FB209212421EB001168B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timeless;
+			productName = Timeless;
+			productReference = BF9FB20B212421EB001168B7 /* Timeless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9FB203212421EA001168B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Syunsuke Nakao";
+				TargetAttributes = {
+					BF9FB20A212421EB001168B7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BF9FB206212421EA001168B7 /* Build configuration list for PBXProject "TimeLess" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9FB202212421EA001168B7;
+			productRefGroup = BF9FB20C212421EB001168B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9FB20A212421EB001168B7 /* Timeless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9FB209212421EB001168B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9FB24B21244882001168B7 /* editTitle.png in Resources */,
+				BF9FB28721394FF7001168B7 /* i.jpg in Resources */,
+				BF9FB23521243B4D001168B7 /* play.png in Resources */,
+				BF9FB23F21243EB0001168B7 /* top_border.png in Resources */,
+				BF9FB28521394FF7001168B7 /* h.JPG in Resources */,
+				BF9FB25321244882001168B7 /* deleteIcon.png in Resources */,
+				BF9FB25121244882001168B7 /* backbtn.png in Resources */,
+				BF9FB219212421F0001168B7 /* LaunchScreen.storyboard in Resources */,
+				BF9FB25221244882001168B7 /* reEditbtn.png in Resources */,
+				BF9FB25021244882001168B7 /* backbtn2.png in Resources */,
+				BF9FB23A21243B4D001168B7 /* camera.png in Resources */,
+				BF9FB24C21244882001168B7 /* checkbtn.png in Resources */,
+				BF9FB23821243B4D001168B7 /* gallery.png in Resources */,
+				BF9FB24F21244882001168B7 /* galleryTitle.png in Resources */,
+				BF9FB24E21244882001168B7 /* savebtn.png in Resources */,
+				BF9FB28421394FF7001168B7 /* a.JPG in Resources */,
+				BFD90ED92151462A00B5CE9C /* noImage.png in Resources */,
+				BF9FB2AD21399688001168B7 /* timeless.mp3 in Resources */,
+				BF9FB24D21244882001168B7 /* deletebtn.png in Resources */,
+				BF9FB23B21243B4D001168B7 /* photo.png in Resources */,
+				BF9FB28321394FF7001168B7 /* g.jpg in Resources */,
+				BF9FB28021394FF7001168B7 /* c.JPG in Resources */,
+				BF9FB216212421F0001168B7 /* Assets.xcassets in Resources */,
+				BF9FB23721243B4D001168B7 /* header_logo.png in Resources */,
+				BF9FB214212421EB001168B7 /* Main.storyboard in Resources */,
+				BF9FB28221394FF7001168B7 /* e.JPG in Resources */,
+				BF9FB23C21243B4D001168B7 /* edit.png in Resources */,
+				BF9FB28621394FF7001168B7 /* b.JPG in Resources */,
+				BF9FB22121242682001168B7 /* timeless_top.jpg in Resources */,
+				BF9FB28121394FF7001168B7 /* f.JPG in Resources */,
+				BF9FB223212427AB001168B7 /* TImeLess_logo-06.png in Resources */,
+				BF9FB24A21244882001168B7 /* saveTitle.png in Resources */,
+				BFD90ED72151419C00B5CE9C /* timeless.png in Resources */,
+				BF9FB27F21394FF7001168B7 /* d.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9FB207212421EB001168B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9FB211212421EB001168B7 /* ViewController.swift in Sources */,
+				BF9FB25721253C57001168B7 /* saveViewController.swift in Sources */,
+				BF9FB25521244DA7001168B7 /* editViewController.swift in Sources */,
+				BF9FB20F212421EB001168B7 /* AppDelegate.swift in Sources */,
+				BF9FB28921396ACC001168B7 /* animationViewController.swift in Sources */,
+				BF09BFDE213BCAFB009BD678 /* galleryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF9FB212212421EB001168B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9FB213212421EB001168B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9FB217212421F0001168B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9FB218212421F0001168B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9FB21B212421F0001168B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF9FB21C212421F0001168B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9FB21E212421F0001168B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA457A3LUC;
+				INFOPLIST_FILE = Timeless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifech.Timeless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF9FB21F212421F0001168B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA457A3LUC;
+				INFOPLIST_FILE = Timeless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifech.Timeless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9FB206212421EA001168B7 /* Build configuration list for PBXProject "TimeLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9FB21B212421F0001168B7 /* Debug */,
+				BF9FB21C212421F0001168B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9FB21D212421F0001168B7 /* Build configuration list for PBXNativeTarget "Timeless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9FB21E212421F0001168B7 /* Debug */,
+				BF9FB21F212421F0001168B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9FB203212421EA001168B7 /* Project object */;
+}
